@@ -1,5 +1,15 @@
-name = "stuf"
+name = "stuff"
 version = "0.0.1"
+
+[javascript]
+runtime = "deno"
+typescript_declarations = true
+
+[javascript.deno]
+allow_read = true
+allow_env = true
+allow_sys = true
+allow_ffi = true
 
 [dependencies]
 gleam_stdlib = "~> 0.34 or ~> 1.0"

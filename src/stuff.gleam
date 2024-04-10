@@ -7,8 +7,7 @@ import envoy
 pub fn main() {
   let argv = argv.load()
 
-  //io.debug(args.program)
-  //io.debug(args.arguments)
+  io.debug(argv)
 
   case argv.arguments {
     ["--help"] | ["-h"] -> io.println("fuuu")
